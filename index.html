@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kamini UI designer and developer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styl.css">
+	<link rel="stylesheet" type="text/css" href="animate.min.css">
+	<script type="text/javascript" src="Jquery.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});
+	</script>
+	<style type="text/css" media="(max-width: 732px)">
+	.navbar
+	{
+		height: 20vh !important;
+	}
+	</style>
+	<style type="text/css">
+	.navbr
+	{
+		
+		height: 60vh;
+	}
+	.navbar
+	{
+		background:  rgba(0,0,0,0.3);
+		border: none;
+	}
+	.name
+	{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px;
+		
+	}
+	body
+	{
+		width: 100% !important;
+		background-image: url("backgr.jpg");
+		background-size: cover;
+		font-family: Century Gothic;
+		overflow-x:hidden;
+	}
+	.intro
+	{
+		color: white;
+		text-align: center;
+		margin-top: 150px;
+	}
+	.btt
+	{
+		display:inline-block;
+		background-color: transparent;
+		border: 0.5px solid #ffffff;
+		padding:10px;
+		width:190px;
+		margin:5px 15px;
+		color: #ffffff;
+		transition:all 1s;
+	}
+	.btt:hover
+	{
+ background-color: #ffffff;
+ color: #000000;
+	}
+	.second
+	{
+		background-color:#0e0e0e;
+		min-height: 40vh;
+		max-height: auto;
+	}
+	.myimg
+	{
+		margin-top: -50px;
+		border-radius: 50%;
+	}
+
+	.move
+    {
+
+    /*-ms-transform: rotate(-7deg); 
+    -webkit-transform: rotate(-7deg); 
+    transform: rotate(-7deg);*/
+	}
+
+	
+	.footer
+	{
+		height: 40px;
+		background-color: #0e0e0e;
+	}
+	.contact
+	{
+		height: 7vh;
+		background-color: #0e0e0e;
+		display: flex;
+		align-items: center;
+
+	}
+	.cbox
+	{
+		min-height: 30vh;
+		max-height: auto;
+		background-color:#0e0e0e;
+	}
+	.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:transparent;
+	height:20px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.2s linear;
+	-moz-transition:0.2s linear;
+	-ms-transition:0.2s linear;
+	-o-transition:0.2s linear;
+	transition:0.2s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:20px;
+	line-height:20px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:20px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:20px;
+	line-height:20px;
+	color:#ffffff;
+}
+a:hover
+{
+ text-decoration: none;
+}
+
+	</style> 
+</head>
+<body>
+	<div class="container-fluid navbr all" id="Home">
+	<div class="intro">
+          <div class="wow pulse">
+          	<h2  >I'M KAMINI</h2>
+          </div>
+           
+           <h4 style="margin-top:-5px;margin-bottom:20px;">UI DESIGNER AND DEVELOPER</H4> 
+			
+			<a href="Resume.pdf" class="btt">RESUME</a>
+			<a href="https://www.behance.net/skamini" class="btt">WORKS</a>
+  </div>
+	</div>
+
+<div class="row">
+<div class="col-md-10 col-md-offset-1 second">
+	<div class="col-md-12"><center><div class="myimg"><img src="pic.jpg" style="border-radius:50%; width:150px; height:150px;"></div></center>
+<div>
+		<h2 style="text-align:center;color:#c9212f"><strong>SHORTLY ABOUT ME</strong></h2>
+		<p style="text-align:center;color:#ffffff;padding:15px" class="col-md-6 col-md-offset-3">I am a Graphic Designer based in India, specializing in User Interface Design and Development. I build clean, appealing, and functional interfaces which comply with the latest web standards.</p>
+		</div>
+	</div>
+	</div>
+	</div>
+<div class="row" style="margin-bottom:50px; margin-top:50px;">
+	<div class="col-md-8 col-md-offset-2 skillz">
+	<div class="col-md-10 col-md-offset-1">
+	<center><h2 style="color:#ffffff;margin-bottom:35px" style="text-align:center">Skills</h2></center>
+<div class="skillbar clearfix " data-percent="90%">
+	<div class="skillbar-title" style="background: #c9212f;"><span>HTML5/CSS</span></div>
+	<div class="skillbar-bar" style="background: #d75963;"></div>
+	<div class="skill-bar-percent">90%</div>
+</div>
+<div class="skillbar clearfix " data-percent="70%">
+	<div class="skillbar-title" style="background: #c9212f;"><span>JS/JQ</span></div>
+	<div class="skillbar-bar" style="background: #d75963;"></div>
+	<div class="skill-bar-percent">70%</div>
+</div>
+<div class="skillbar clearfix " data-percent="90%">
+	<div class="skillbar-title" style="background: #c9212f;"><span>ILLUSTRATOR</span></div>
+	<div class="skillbar-bar" style="background: #d75963;"></div>
+	<div class="skill-bar-percent">90%</div>
+</div>
+<div class="skillbar clearfix " data-percent="80%">
+	<div class="skillbar-title" style="background: #c9212f;"><span>PHOTOSHOP</span></div>
+	<div class="skillbar-bar" style="background: #d75963;"></div>
+	<div class="skill-bar-percent">80%</div>
+</div>
+<div class="skillbar clearfix " data-percent="70%">
+	<div class="skillbar-title" style="background: #c9212f;"><span>JAVA</span></div>
+	<div class="skillbar-bar" style="background: #d75963;"></div>
+	<div class="skill-bar-percent">70%</div>
+</div>
+<div class="skillbar clearfix " data-percent="75%">
+	<div class="skillbar-title" style="background: #c9212f;"><span>C/C++</span></div>
+	<div class="skillbar-bar" style="background: #d75963;"></div>
+	<div class="skill-bar-percent">75%</div>
+</div>
+
+
+	</div>
+	</div>
+	</div>
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1 cbox">
+		<center><h2 style="color:#ffffff;margin-bottom:25px" style="text-align:center">Contact</h2></center> 
+		<div class="col-md-12">
+		<div class="col-md-4" style="margin-top:20px"><center><img src="phone.png" style="width:40px; height: auto; "></center><h3 style="text-align:center;padding:10px">+919840328407</h3></div>
+		<div class="col-md-4" style="margin-top:20px"><center><img src="mail.png" style="width:40px; height: auto; "></center><h3 style="text-align:center;padding:10px">kamini.rmk333@gmail.com</h3></div>
+		<div class="col-md-4" style="margin-top:20px"><center><img src="locs.png" style="width:40px; height: auto; "></center><h3 style="text-align:center;padding:10px">Chennai,India</h3></div>
+		
+		</div>
+		</div>
+	</div>
+	<div class="row" style="margin-top:20px">
+		<footer class="col-md-10 col-md-offset-1 contact" >
+	<div class="col-md-4 col-md-offset-4">	<a href="https://www.facebook.com/kamini.sridhar.79" class="col-md-3" style="text-align:center;"><img src="fb.png" style="width:25px; height:auto;"></a>
+	<a href="https://www.instagram.com/kaminisridhar/" class="col-md-3" style="text-align:center;"><img src="inst.png" style="width:25px; height:auto;"></a>	
+	<a href="" class="col-md-3" style="text-align:center;"><img src="ln.png" style="width:25px; height:auto;"></a>
+	<a href="https://www.behance.net/skamini" class="col-md-3" style="text-align:center;"><img src="beh.png" style="width:30px; height:auto;"></a>	
+		</div>
+</footerS>
+	</div>
+	<script type="text/javascript" src="wow.min.js">
+</script>
+<script type="text/javascript">
+	new WOW().init();
+</script>
+</body>
+</html>
